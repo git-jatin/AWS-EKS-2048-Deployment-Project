@@ -1,0 +1,57 @@
+# Deploying 2048 Game on Amazon EKS using AWS Load Balancer Controller
+
+## Project Overview
+
+This project demonstrates deployment of a containerized 2048 game application on Amazon EKS using Kubernetes. The application is exposed publicly using AWS Application Load Balancer (ALB) through Kubernetes Ingress.
+
+The project also includes configuration of AWS Load Balancer Controller with IAM Roles for Service Accounts (IRSA) and troubleshooting of real-world IAM/OIDC authentication issues.
+
+---
+
+# Tech Stack
+
+- AWS EKS
+- Kubernetes
+- Docker
+- AWS IAM
+- AWS ALB Ingress Controller
+- eksctl
+- kubectl
+- Helm
+- AWS Fargate
+
+---
+
+# Architecture
+
+```text
+User → AWS ALB → Kubernetes Ingress → Service → Pods
+
+# Deploying 2048 Game on Amazon EKS using AWS Load Balancer Controller
+
+## Project Overview
+
+This project demonstrates deployment of a containerized 2048 game application on Amazon EKS using Kubernetes. The application is exposed publicly using AWS Application Load Balancer (ALB) through Kubernetes Ingress.
+
+The project also includes configuration of AWS Load Balancer Controller with IAM Roles for Service Accounts (IRSA) and troubleshooting of real-world IAM/OIDC authentication issues.
+
+---
+
+# Tech Stack
+
+- AWS EKS
+- Kubernetes
+- Docker
+- AWS IAM
+- AWS ALB Ingress Controller
+- eksctl
+- kubectl
+- Helm
+- AWS Fargate
+
+---
+
+# Architecture
+
+```text
+User → AWS ALB → Kubernetes Ingress → Service → Pods
